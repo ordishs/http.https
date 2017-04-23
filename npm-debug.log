@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ordishs/.nvm/versions/node/v7.1.0/bin/node',
+1 verbose cli   '/Users/ordishs/.nvm/versions/node/v7.1.0/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '-f' ]
+2 info using npm@3.10.9
+3 info using node@v7.1.0
+4 warn using --force I sure hope you know what you are doing.
+5 verbose publish [ '.' ]
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   escapedName: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/Users/ordishs/dev/http.https',
+8 silly cache add   type: 'directory' }
+9 verbose addLocalDirectory /Users/ordishs/.npm/http.https/1.0.2/package.tgz not in flight; packing
+10 verbose correctMkdir /Users/ordishs/.npm correctMkdir not in flight; initializing
+11 info lifecycle http.https@1.0.2~prepublish: http.https@1.0.2
+12 silly lifecycle http.https@1.0.2~prepublish: no script for prepublish, continuing
+13 verbose tar pack [ '/Users/ordishs/.npm/http.https/1.0.2/package.tgz',
+13 verbose tar pack   '/Users/ordishs/dev/http.https' ]
+14 verbose tarball /Users/ordishs/.npm/http.https/1.0.2/package.tgz
+15 verbose folder /Users/ordishs/dev/http.https
+16 verbose addLocalTarball adding from inside cache /Users/ordishs/.npm/http.https/1.0.2/package.tgz
+17 verbose correctMkdir /Users/ordishs/.npm correctMkdir not in flight; initializing
+18 silly cache afterAdd http.https@1.0.2
+19 verbose afterAdd /Users/ordishs/.npm/http.https/1.0.2/package/package.json not in flight; writing
+20 verbose correctMkdir /Users/ordishs/.npm correctMkdir not in flight; initializing
+21 verbose afterAdd /Users/ordishs/.npm/http.https/1.0.2/package/package.json written
+22 silly publish { name: 'http.https',
+22 silly publish   version: '1.0.2',
+22 silly publish   description: 'Serve HTTP and HTTPS on the same port.',
+22 silly publish   main: 'http.https.js',
+22 silly publish   directories: { example: 'examples' },
+22 silly publish   dependencies: {},
+22 silly publish   devDependencies: {},
+22 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+22 silly publish   repository:
+22 silly publish    { type: 'git',
+22 silly publish      url: 'git+https://github.com/ordishs/http.https.git' },
+22 silly publish   keywords: [ 'http', 'https', 'ssl', 'port' ],
+22 silly publish   author:
+22 silly publish    { name: 'Simon Ordish',
+22 silly publish      email: 'simon.ordish@masagi.co.uk',
+22 silly publish      url: 'http://masa.gi' },
+22 silly publish   license: 'ISC',
+22 silly publish   bugs: { url: 'https://github.com/ordishs/http.https/issues' },
+22 silly publish   homepage: 'https://github.com/ordishs/http.https#readme',
+22 silly publish   readme: '# httpx\nServe HTTP and HTTPS on the same port.\n\nInstallation\n------------\n\n```npm install --save http.https```\n\nor\n\n```yarn add http.https```\n\nUsage\n-----\n\nSee examples folder.  Please note that you will need an SSL certificate to run these examples.  A temporary, self-signed certificate can be generated as follows:\n```\ncd examples\n\nopenssl genrsa -out example.key 2048\nopenssl req -new -out example.csr -key example.key\nopenssl x509 -req -in example.csr -signkey example.key -out example.crt\n\n```\n\nThe example depends on Express and SocketIO.  These can be installed as follows:\n\n```\ncd examples\n\nnpm install\nnpm start\n\n```\n\nWhen the server is running, you can test by going to [http://localhost:3000](http://localhost:3000) or [https://localhost:3000](https://localhost:3000) in your browser.\n',
+22 silly publish   readmeFilename: 'README.md',
+22 silly publish   gitHead: '3c17d353b33fb9c596639325734bf0e442077ca3',
+22 silly publish   _id: 'http.https@1.0.2',
+22 silly publish   _shasum: 'e0763eb1d1d288762dcef1ed1b33f617a7fa79ae',
+22 silly publish   _from: '.' }
+23 verbose getPublishConfig undefined
+24 silly mapToRegistry name http.https
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'http.https',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   escapedName: 'http.https',
+27 silly mapToRegistry   name: 'http.https',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/http.https
+29 verbose publish registryBase https://registry.npmjs.org/
+30 silly publish uploading /Users/ordishs/.npm/http.https/1.0.2/package.tgz
+31 verbose request uri https://registry.npmjs.org/http.https
+32 verbose request sending authorization for write operation
+33 info attempt registry request try #1 at 12:41:28 AM
+34 verbose request using bearer token for auth
+35 verbose request id 41bb1d69a7726166
+36 http request PUT https://registry.npmjs.org/http.https
+37 http 403 https://registry.npmjs.org/http.https
+38 verbose headers { 'content-type': 'application/json',
+38 verbose headers   'cache-control': 'max-age=300',
+38 verbose headers   'content-length': '95',
+38 verbose headers   'accept-ranges': 'bytes',
+38 verbose headers   date: 'Sun, 23 Apr 2017 21:41:29 GMT',
+38 verbose headers   via: '1.1 varnish',
+38 verbose headers   connection: 'keep-alive',
+38 verbose headers   'x-served-by': 'cache-lhr6351-LHR',
+38 verbose headers   'x-cache': 'MISS',
+38 verbose headers   'x-cache-hits': '0',
+38 verbose headers   'x-timer': 'S1492983689.108408,VS0,VE843',
+38 verbose headers   vary: 'Accept-Encoding' }
+39 verbose request invalidating /Users/ordishs/.npm/registry.npmjs.org/http.https on PUT
+40 error publish Failed PUT 403
+41 verbose stack Error: "You cannot publish over the previously published version 1.0.2." : http.https
+41 verbose stack     at makeError (/Users/ordishs/.nvm/versions/node/v7.1.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+41 verbose stack     at CachingRegistryClient.<anonymous> (/Users/ordishs/.nvm/versions/node/v7.1.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+41 verbose stack     at Request._callback (/Users/ordishs/.nvm/versions/node/v7.1.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+41 verbose stack     at Request.self.callback (/Users/ordishs/.nvm/versions/node/v7.1.0/lib/node_modules/npm/node_modules/request/request.js:187:22)
+41 verbose stack     at emitTwo (events.js:106:13)
+41 verbose stack     at Request.emit (events.js:191:7)
+41 verbose stack     at Request.<anonymous> (/Users/ordishs/.nvm/versions/node/v7.1.0/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+41 verbose stack     at emitOne (events.js:96:13)
+41 verbose stack     at Request.emit (events.js:188:7)
+41 verbose stack     at IncomingMessage.<anonymous> (/Users/ordishs/.nvm/versions/node/v7.1.0/lib/node_modules/npm/node_modules/request/request.js:969:12)
+42 verbose statusCode 403
+43 verbose pkgid http.https
+44 verbose cwd /Users/ordishs/dev/http.https
+45 error Darwin 16.5.0
+46 error argv "/Users/ordishs/.nvm/versions/node/v7.1.0/bin/node" "/Users/ordishs/.nvm/versions/node/v7.1.0/bin/npm" "publish" "-f"
+47 error node v7.1.0
+48 error npm  v3.10.9
+49 error code E403
+50 error "You cannot publish over the previously published version 1.0.2." : http.https
+51 error If you need help, you may report this error at:
+51 error     <https://github.com/npm/npm/issues>
+52 verbose exit [ 1, true ]
