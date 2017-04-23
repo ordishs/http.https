@@ -1,0 +1,21 @@
+{
+  "name": "httpx",
+  "version": "1.0.0",
+  "description": "Serve HTTP and HTTPS on the same port.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ordishs/httpx.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "ssl",
+    "port"
+  ],
+  "author": "Simon Ordish <simon.ordish@masagi.co.uk> (http://masa.gi)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ordishs/httpx/issues"
+  },
+  "homepage": "https://github.com/ordishs/httpx#readme"
+}

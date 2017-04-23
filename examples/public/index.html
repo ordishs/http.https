@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/socket.io/socket.io.js"></script>
+    <title>Test socket io</title>
+  </head>
+  <body>
+    <script>
+      var socket = new io()
+      socket.on('message', function(data) {
+        document.write('<p>' + data + '</p>')
+      })
+    </script>
+  </body>
+</html>

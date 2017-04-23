@@ -1,0 +1,16 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express_server.js",
+  "scripts": {
+    "start": "node express_server.js",
+  },
+  "keywords": [],
+  "author": "Simon Ordish <simon.ordish@masagi.co.uk> (http://masa.gi)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
