@@ -1,10 +1,19 @@
 {
-  "name": "httpx",
+  "name": "http.https",
   "version": "1.0.0",
   "description": "Serve HTTP and HTTPS on the same port.",
+  "main": "http.https.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ordishs/httpx.git"
+    "url": "git+https://github.com/ordishs/http.https.git"
   },
   "keywords": [
     "http",
@@ -13,9 +22,9 @@
     "port"
   ],
   "author": "Simon Ordish <simon.ordish@masagi.co.uk> (http://masa.gi)",
-  "license": "Apache-2.0",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ordishs/httpx/issues"
+    "url": "https://github.com/ordishs/http.https/issues"
   },
-  "homepage": "https://github.com/ordishs/httpx#readme"
+  "homepage": "https://github.com/ordishs/http.https#readme"
 }

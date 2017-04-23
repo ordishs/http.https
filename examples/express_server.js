@@ -3,7 +3,7 @@
 var fs = require('fs')
 var path = require('path')
 var express = require('express')
-var httpx = require('httpx')
+var http_https = require('http.https')
 var socketio = require('socket.io')
 
 var credentials = {
@@ -24,7 +24,7 @@ app.use(function(req, res) {
 })
 
 // Create a server that will handle HTTP and HTTPS requests...
-var server = httpx.createServer(credentials, app)
+var server = http_https.createServer(credentials, app)
 
 // Create a socket.io instance an attach the HTTP and HTTPS servers to it...
 var io = socketio()

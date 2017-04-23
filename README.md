@@ -4,11 +4,11 @@ Serve HTTP and HTTPS on the same port.
 Installation
 ------------
 
-```npm install --save httpx```
+```npm install --save http.https```
 
 or
 
-```yarn add httpx```
+```yarn add http.https```
 
 Usage
 -----
