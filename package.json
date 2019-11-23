@@ -1,6 +1,6 @@
 {
   "name": "http.https",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Serve HTTP and HTTPS on the same port.",
   "main": "http.https.js",
   "directories": {

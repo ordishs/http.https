@@ -4,7 +4,7 @@
   "description": "",
   "main": "express_server.js",
   "scripts": {
-    "start": "node express_server.js",
+    "start": "node express_server.js"
   },
   "keywords": [],
   "author": "Simon Ordish <simon.ordish@masagi.co.uk> (http://masa.gi)",
