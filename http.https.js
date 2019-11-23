@@ -28,9 +28,6 @@ var createServer = function (opts, handler) {
         // Emit the socket to the HTTP(s) server
         proxy.emit('connection', socket)
       }
-
-      // Resume the socket data stream
-      socket.resume()
     })
   })
 
